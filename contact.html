@@ -1,43 +1,49 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Rhyna Silva - Contact</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/style.css">
+
 	</head>
 	<body>
-		<div id="container">
+		<div class="container">
 		
 			<div id="header">
 				<div id="my-name">
-					<h2>Rhyna Silva</h2>
-					
-				</div>
-
+					<h2 id="my-name-color">Rhyna Silva</h2>	
+				</div><!--End my-name section-->
 				<div id="nav">
 					<nav>
 						<a href="index.html">About</a> |
 						<a href="portafolio.html">Portafolio</a> |
 						<a class="selected" href="Contact.html">Contact</a>
 					</nav>
-				</div>
+				</div><!--End nav section-->
 
-			</div>
+			</div><!--End header section-->
 
 			<div id="content">
 				<div id="main">
 					<h2>Contact</h2>
 					<hr>
 					<form>
-						Name:<br>
-						<input type="text" name="complete-name">
 						<br>
-						Email:<br>
-						<input type="text" name="email-address">
+						<b>Name:</b>
 						<br>
-						Message:<br>
-						<input type="text" name="message">
+						<input type="text" name="complete-name" value="John Smith">
 						<br>
-						<input type="submit" name="submit-button">						
+						<b>Email:</b>
+						<br>
+						<input type="text" name="email-address" value="example@gmail.com">
+						<br>
+						<b>Message:</b>
+						<br>
+						<textarea name="message" rows="10" cols="82"> </textarea>
+						<br>
+			
+						<input type="submit" name="submit-button" onclick="alert('Thank you!')">	
+						<br>					
 					</form>
 
 				</div>
@@ -45,20 +51,20 @@
 				<div id="connect">
 					<h3>Connect with me</h3>
 					<hr>
-					<img src="assets/images/linkedin-blue-square.png" alt="My linkedin Account" width="50">
-					<img src="assets/images/github-wgrey-logo.png" alt="My Github Account" width="50" >
-					<img src="assets/images/stackoverflow-round.png" alt="My Stack Overflow Account" width="50" >
+					<a href="https://www.linkedin.com/in/rhyna-silva-12681113" target="_blank"><img src="assets/images/linkedin-blue-square.png" alt="My linkedin Account" title="My Linkedin Account" width="50"></a>
+					<a href="https://github.com/rhynas" target="_blank"><img src="assets/images/github-wgrey-logo.png" alt="My Github Account" width="50" title="My Github Account"></a>
+					<a href="http://stackoverflow.com/users/6929314/rhyna" target="_blank"><img src="assets/images/stackoverflow-round.png" alt="My Stack Overflow Account" width="50" title="y Stack Overflow Account"></a>
 				</div>
 		
 			</div>
 
 
-			<div id="footer">
+
+		</div>
+			<div class="footer">
 				<p>&copy; Copyright 2016 Rhyna Silva</p>
 
 			</div>
-
-		</div>
 
 	</body>
 </html>
