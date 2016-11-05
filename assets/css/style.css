@@ -5,6 +5,7 @@
 
 html, body{
 	height: 100%;
+	margin: 0;
 }
 
 body{
@@ -93,7 +94,7 @@ b{
 	overflow: hidden;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 1.5;
-	height: 100%;
+	/*height: auto;*/
 }
 
 #main, #connect{
@@ -135,19 +136,20 @@ nav .selected {
 
 .container{
 	min-height: 100%;
-	height: auto;
-	height: 100%;
-	background:#fff;
-	margin-bottom: :-60px;
+	/*height: auto;*/
+	/*height: 100%;*/
+	/*background: #fff;*/
+	margin-bottom: -60px;
 }
 
-.container:after {
+/*.container:after {
 	content: "";
 	display: block;
+	height: 60px;
 
-}
+}*/
 
-.footer, .container:after{
+.footer, .push{
 	height: 60px;
 }
 
@@ -159,8 +161,7 @@ nav .selected {
 	border-top: 3px solid #FF5700;
 	color: #eee;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 12px;
-	
+	font-size: 12px;	
 }
 
 .portafolio-image{
@@ -175,6 +176,7 @@ nav .selected {
           transition: all 1s ease;
           margin: 5px;
 }
+
 #linkedin-image:hover , #github-image:hover, #stack-image:hover{
 	width: 60px
 }
