@@ -85,6 +85,7 @@ b{
 }
 
 #content{
+	/*background-image: url('assets/images/gplaypattern.png');*/
 	width: 960px;
 	float: 	left;
 	background: #ddd;
